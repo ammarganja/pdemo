@@ -1,0 +1,16 @@
+<nav class="navbar navbar-light bg-light justify-content-center">
+    <a class="navbar-brand" href="#">
+        <!-- <img src="../../assets/logo.773f841d.svg" width="100" height="30" alt=""> -->
+      </a>
+</nav>
+
+
+<form>
+  <label for="myURL">Add your homepage:</label>&nbsp;
+  <input id="myURL" name="myURL" type="url" [(ngModel)]="url" required>
+  <button type="button" (click)="buttnClick()">Submit</button>
+</form>
+
+  <!-- <hello name="{{ name }}"></hello> -->
+
+  <div [innerHtml]="KisshtHtml"></div>
